@@ -17,7 +17,7 @@
 //¿Quienes somos?
 
         Somos un equipo de desarrolladores de la Fundación Pescar, una
-       organización sin fines de lucro, que junto con J.P. Morgan y Loma Negra, nos
+       organización sin fines de lucro, que junto con J.P. Morgan y Santander, nos
        brindaron valiosas herramientas para estar aquí desarrollando la
   	    Presente propuesta.
         
