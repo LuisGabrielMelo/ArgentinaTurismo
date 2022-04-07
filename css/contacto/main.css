@@ -1,0 +1,129 @@
+/*Nav bar*/
+.nav-color {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #059EE1;
+  box-shadow: 0.5px 0.5px 4px #000;
+
+}
+
+/*agregar zindex a los <li>*/
+
+
+.banner {
+  width: 100vw;
+	height: 90vh;
+	background: url('../../img/contacto/portada.jpg') no-repeat center center/cover;
+	color: white;
+
+}
+
+.heightContent {
+
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-left: 30px; 
+}
+
+
+.heightContent div {
+    margin: 5%; 
+}
+
+.contentCol2 {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.575);
+    color: #059EE1;
+}
+
+
+.contentCol2 h2 {
+ 
+    text-align: center;
+
+}
+
+
+/*footer*/
+
+.text-size-medium{
+    font-size: 1.3rem;
+  }
+  .espaciado-t-b {
+    padding: 2% 0;
+  }
+  
+  .espaciado-margin{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+
+
+i{
+    font-size: 2.5rem;
+    align-items: flex-end;
+    text-align: right;
+}
+
+
+/*Body*/
+body, html {
+  overflow-x: hidden;
+}
+
+/*Formularios*/
+
+
+
+/*FOOTER*/
+
+.espaciado-flex {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+body, nav{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer{
+  color: #ffff;
+}
+
+footer a,li{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+footer li {
+  text-align: left;
+}
+.centrado {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+footer p{
+  font-size: 1.5rem;
+
+}
+.mapa iframe {
+    height: 18vh;
+    width: auto;
+}
+
+footer {
+  background-color: #059EE1;
+  width: 100%;
+  height: auto;
+  align-content: center;
+  text-align: center;
+  
+}
+  
+

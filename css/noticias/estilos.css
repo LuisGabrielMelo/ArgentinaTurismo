@@ -1,0 +1,152 @@
+* {min-width: 250px;
+    text-decoration: solid,
+}
+body{
+    color: rgb(86, 94, 99);
+    background-color: rgb(221, 219, 216);
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif!important;
+    border-color: #42494d;
+    min-width: 300px;
+}
+
+
+.nav-color {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #059EE1;
+    box-shadow: 0.5px 0.5px 4px #000;
+}
+.img{
+    width: 100%;
+    height: 150px;
+    margin-left: 10px;
+    padding: 0;
+
+    position: absolute;
+    display: flex;
+}
+
+    h3{ 
+        justify-items: center;
+        color: white; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h3 + p{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .d-block{
+        height: 500px;
+    }
+
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 20pxa;
+}
+img {
+    height: 150px;
+    width:30%;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+
+div img{
+    width: 100%;
+    height: 250px;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #059EE1;
+
+}
+
+p {
+    text-align: center;
+}
+.bg-red {
+    background: red;
+}
+.bg-blue {
+    background: blue;
+}
+.flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.text {
+    font-size: 1.5rem;
+
+    
+}
+.px-md{
+    padding: 0px 20px;
+}
+.mt-md{
+    margin-top: 15px;
+}
+.imagen-size{
+    width: 310px; height: 310px; margin: 40px;
+    
+}
+.espaciado-flex {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+body, nav{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer{
+    color: #ffff;
+}
+
+footer a,li{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+footer li {
+    text-align: left;
+}
+.centrado {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+footer p{
+    font-size: 1.5rem;
+
+}
+.mapa iframe {
+    height: 18vh;
+    width: auto;
+}
+
+footer {
+    background-color: #059EE1;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+}
+
+
