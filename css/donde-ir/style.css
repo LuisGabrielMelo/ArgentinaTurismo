@@ -14,6 +14,12 @@
     box-shadow: 0.5px 0.5px 4px #000;
 }
 
+i{
+    font-size: 2.5rem;
+    align-items: flex-end;
+    text-align: right;
+}
+
 .slide{
     padding-top: 57px;
 }
@@ -28,7 +34,7 @@ body,html{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 3rem;
-    text-align: left;
+    text-align: center;
     max-width: 48em
 }
 
@@ -61,7 +67,7 @@ p{
 .contenedor{
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     height: 80vh;
     margin-bottom: 20px;
 }
@@ -166,8 +172,287 @@ footer {
 
 
 
+@media (max-width: 600px){
+    /*CARD*/
+        .contenedor{
+        display: inline;
+        justify-content: center;
+    }
+    
+    .contenedor .figura{
+        height: 400px;
+        width: 260px;
+        margin-left: 160px;
+    }
+    
+    .contenedor .figura img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+    }
+    
+    .contenedor .figura .texto-card{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        opacity: 100% ;
+        text-align: center;
+        display: block;
+    }
+    
+    .contenedor .figura:hover> .texto-card{
+        visibility: visible;
+        opacity: calc(0.3);    
+    }
+    
+    .contenedor .figura:hover>img{
+        transform: scale(1.3);
+        transform: translateY(-98px, 0px, 0px);
+    }
+    .contenedor .figura .texto-card h3{
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-weight: 100%;
+        padding-top: 300px;
+        font-family:Bebas Neue;
+        font-size: 30px;
+    }
+    /*CARD*/
+    .titulo-provincia{
+        align-items: center;
+        font-size: 2em;
+    }
+    
+    .titulo-lugar-popular{
+        align-items: center;
+        font-size: 2em;
+    }
+    
+    .descubri-destinos{
+        font-size: 1em;
+        padding-bottom: 5px;
+        margin-top: 1px;
+    }
+    
+    p{
+        font: size 20px;;
+    }
+    
+    }
+
 
 @media (max-width: 500px){
+    /*CARD*/
+        .contenedor{
+        display: inline;
+        justify-content: center;
+    }
+    
+    .contenedor .figura{
+        height: 350px;
+        width: 250px;
+        margin-left: 115px;
+    }
+    
+    .contenedor .figura img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+    }
+    
+    .contenedor .figura .texto-card{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        opacity: 100% ;
+        text-align: center;
+        display: block;
+    }
+    
+    .contenedor .figura:hover> .texto-card{
+        visibility: visible;
+        opacity: calc(0.3);    
+    }
+    
+    .contenedor .figura:hover>img{
+        transform: scale(1.3);
+        transform: translateY(-98px, 0px, 0px);
+    }
+    .contenedor .figura .texto-card h3{
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-weight: 100%;
+        padding-top: 250px;
+        font-family:Bebas Neue;
+        font-size: 30px;
+    }
+    /*CARD*/
+    .titulo-provincia{
+        align-items: center;
+        font-size: 2em;
+    }
+    
+    .titulo-lugar-popular{
+        align-items: center;
+        font-size: 2em;
+    }
+    
+    .descubri-destinos{
+        font-size: 1em;
+        padding-bottom: 5px;
+        margin-top: 1px;
+    }
+    
+    p{
+        font: size 20px;;
+    }
+    
+    }
+
+    @media (max-width: 440px){
+        /*CARD*/
+            .contenedor{
+            display: inline;
+            justify-content: center;
+        }
+        
+        .contenedor .figura{
+            height: 350px;
+            width: 250px;
+            margin-left: 90px;
+        }
+        
+        .contenedor .figura img{
+            width: 100%;
+            height: 100%;
+            transition: all 400ms ease-out;
+        }
+        
+        .contenedor .figura .texto-card{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 400ms ease-out;
+            opacity: 100% ;
+            text-align: center;
+            display: block;
+        }
+        
+        .contenedor .figura:hover> .texto-card{
+            visibility: visible;
+            opacity: calc(0.3);    
+        }
+        
+        .contenedor .figura:hover>img{
+            transform: scale(1.3);
+            transform: translateY(-98px, 0px, 0px);
+        }
+        .contenedor .figura .texto-card h3{
+            color: rgb(0, 0, 0);
+            -webkit-text-stroke: 1px rgb(255, 255, 255);
+            font-weight: 100%;
+            padding-top: 250px;
+            font-family:Bebas Neue;
+            font-size: 30px;
+        }
+        /*CARD*/
+        .titulo-provincia{
+            align-items: center;
+            font-size: 2em;
+        }
+        
+        .titulo-lugar-popular{
+            align-items: center;
+            font-size: 2em;
+        }
+        
+        .descubri-destinos{
+            font-size: 1em;
+            padding-bottom: 5px;
+            margin-top: 1px;
+        }
+        
+        p{
+            font: size 20px;;
+        }
+        
+        }
+
+    @media (max-width: 350px){
+        /*CARD*/
+            .contenedor{
+            display: inline;
+            justify-content: center;
+        }
+        
+        .contenedor .figura{
+            height: 350px;
+            width: 250px;
+        }
+        
+        .contenedor .figura img{
+            width: 100%;
+            height: 100%;
+            transition: all 400ms ease-out;
+        }
+        
+        .contenedor .figura .texto-card{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 400ms ease-out;
+            opacity: 100% ;
+            text-align: center;
+            display: block;
+        }
+        
+        .contenedor .figura:hover> .texto-card{
+            visibility: visible;
+            opacity: calc(0.3);    
+        }
+        
+        .contenedor .figura:hover>img{
+            transform: scale(1.3);
+            transform: translateY(-98px, 0px, 0px);
+        }
+        .contenedor .figura .texto-card h3{
+            color: rgb(0, 0, 0);
+            -webkit-text-stroke: 1px rgb(255, 255, 255);
+            font-weight: 100%;
+            padding-top: 250px;
+            font-family:Bebas Neue;
+            font-size: 30px;
+        }
+        /*CARD*/
+        .titulo-provincia{
+            align-items: center;
+            font-size: 2em;
+        }
+        
+        .titulo-lugar-popular{
+            align-items: center;
+            font-size: 2em;
+        }
+        
+        .descubri-destinos{
+            font-size: 1em;
+            padding-bottom: 5px;
+            margin-top: 1px;
+        }
+        
+        p{
+            font: size 20px;;
+        }
+        
+        }
+
+@media (max-width: 375px){
 /*CARD*/
     .contenedor{
     display: contents;
@@ -178,6 +463,7 @@ footer {
 .contenedor .figura{
     height: 300px;
     width: 200px;
+    margin-left: 80px;
 }
 
 .contenedor .figura img{
@@ -207,7 +493,8 @@ footer {
     transform: translateY(-98px, 0px, 0px);
 }
 .contenedor .figura .texto-card h3{
-    color: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-weight: 100;
     padding-top: 250px;
     font-family:Bebas Neue;
@@ -229,7 +516,7 @@ footer {
 }
 
 p{
-    font-size:3vh;
+    font-size:20px;
 }
 
 }
