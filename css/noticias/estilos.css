@@ -9,7 +9,6 @@
     z-index: 1;
     background-color: #059EE1;
     box-shadow: 0.5px 0.5px 4px #000;
-    position: relative;
 }
 
 i{
@@ -69,10 +68,18 @@ body{
 }
 
 
+
 .titulo{
     align-items: center;
     justify-content: center;
     color: #059EE1;
+    text-align: center;
+}
+
+.titulo-slideCarrusel{
+    align-items: center;
+    justify-content: center;
+    color: #fcfcfc;
     text-align: center;
 }
 
@@ -174,3 +181,4 @@ footer {
 .bg-red {
     background: red;
 }
+  
